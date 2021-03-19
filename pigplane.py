@@ -14,7 +14,7 @@ if fromdata == {}:
 def send_wechat(content):
     # title and content must be string.
     title = "v2流量签到通知"                                   
-    url = 'https://sc.ftqq.com/' + sckey + '.send'
+    url = 'https://sctapi.ftqq.com/' + sckey + '.send'
     data = {'text':title,'desp':content}
     result = requests.post(url,data)
     return(result) 
