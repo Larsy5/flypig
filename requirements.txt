@@ -1,0 +1,7 @@
+requests
+rsa
+python-dateutil
+beautifulsoup4
+cryptography
+lxml
+pyquery
